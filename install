@@ -1,14 +1,14 @@
 #!/bin/bash
 
-#Atualiza o sistema
+#Verifica se o sistema está atualizado
 sudo apt update && sudo apt dist-upgrade
 
-#Adicionando reps
+#Adiciona os repositórios necessários
 sudo apt-add-repository ppa:yktooo/ppa -y
 sudo add-apt-repository ppa:atareao/atareao -y
 sudo apt-get update
 
-#Instalando os programas
+#Instalação das aplicações
 
 sudo apt install psensor -y
 sudo apt install my-weather-indicator -y
@@ -22,8 +22,10 @@ sudo apt install vlc -y
 sudo apt install guvcview -y
 sudo snap install pycharm-community --classic
 
+#Instalação do Google Chrome
 cd /home/$USER/Downloads
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+#Verifica novamente se o sistema está atualizado
 sudo apt update && sudo apt dist-upgrade
