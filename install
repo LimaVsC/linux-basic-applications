@@ -9,7 +9,6 @@ sudo add-apt-repository ppa:atareao/atareao -y
 sudo apt-get update
 
 #Instalação das aplicações
-
 sudo apt install psensor -y
 sudo apt install my-weather-indicator -y
 sudo apt install lingot -y
