@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#Atualiza o sistema
+sudo apt update && sudo apt dist-upgrade
+
+#Adicionando reps
+sudo apt-add-repository ppa:yktooo/ppa -y
+sudo add-apt-repository ppa:atareao/atareao -y
+sudo apt-get update
+
+#Instalando os programas
+
+sudo apt install psensor -y
+sudo apt install my-weather-indicator -y
+sudo apt install lingot -y
+sudo apt install timeshift -y
+sudo apt install indicator-sound-switcher -y
+sudo apt install krita -y
+#sudo apt install texlive-full -y
+sudo apt install speedtest-cli -y
+sudo apt install vlc -y
+sudo apt install guvcview -y
+sudo snap install pycharm-community --classic
+
+cd /home/$USER/Downloads
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+sudo apt update && sudo apt dist-upgrade
