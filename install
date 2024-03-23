@@ -6,20 +6,23 @@ sudo apt update && sudo apt dist-upgrade
 #Adiciona os repositórios necessários
 sudo apt-add-repository ppa:yktooo/ppa -y
 sudo add-apt-repository ppa:atareao/atareao -y
+sudo add-apt-repository ppa:gnumdk/lollypop -y
 sudo apt-get update
 
 #Instalação das aplicações
-sudo apt install psensor -y
-sudo apt install my-weather-indicator -y
-sudo apt install lingot -y
-sudo apt install timeshift -y
-sudo apt install indicator-sound-switcher -y
-sudo apt install krita -y
-#sudo apt install texlive-full -y
-sudo apt install speedtest-cli -y
-sudo apt install vlc -y
-sudo apt install guvcview -y
-sudo snap install pycharm-community --classic
+sudo apt install psensor -y #monitoramento da temperatura
+sudo apt install my-weather-indicator -y #previsão do tempo
+sudo apt install lingot -y #afinador de guitarra
+sudo apt install timeshift -y #backups
+sudo apt install indicator-sound-switcher -y #ferramenta para seleção da saída/entrada de audio
+sudo apt install krita -y #ferramenta para desenho
+#sudo apt install texlive-full -y #instala todos os pacotes latex
+sudo apt install speedtest-cli -y #teste de velocidade de conecção
+sudo apt install vlc -y #vlc media player
+sudo apt install guvcview -y #ferramenta para configuração de câmera
+sudo snap install pycharm-community --classic #IDE de python
+sudo apt install lollypop -y #player de música
+sudo apt-get install exfalso #editor de tags de arquivos de áudio
 
 #Instalação do Google Chrome
 cd /home/$USER/Downloads
