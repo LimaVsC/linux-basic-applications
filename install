@@ -23,6 +23,7 @@ sudo apt install guvcview -y #ferramenta para configuração de câmera
 sudo snap install pycharm-community --classic #IDE de python
 sudo apt install lollypop -y #player de música
 sudo apt-get install exfalso #editor de tags de arquivos de áudio
+sudo apt install qbittorrent -y #ferramenta de torrent
 
 #Instalação do Google Chrome
 cd /home/$USER/Downloads
