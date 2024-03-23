@@ -26,7 +26,8 @@ sudo apt-get install exfalso #editor de tags de arquivos de áudio
 sudo apt install qbittorrent -y #ferramenta de torrent
 
 #Instalação do Google Chrome
-cd /home/$USER/Downloads
+# shellcheck disable=SC2164
+cd /home/"$USER"/Downloads
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
