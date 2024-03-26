@@ -24,6 +24,7 @@ sudo snap install pycharm-community --classic #IDE de python
 sudo apt install lollypop -y #player de música
 sudo apt-get install exfalso #editor de tags de arquivos de áudio
 sudo apt install qbittorrent -y #ferramenta de torrent
+sudo apt install piper -y #ferramenta para configurar periféricos da logitech
 
 #Instalação do Google Chrome
 # shellcheck disable=SC2164
